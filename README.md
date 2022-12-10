@@ -11,7 +11,7 @@ Note: Make sure to read the Nginx specifications.
 
 #### - Your webroot is /var/www/html/ or whatever that serves / on your website
 #### - Download UV from [here](https://github.com/titaniumnetwork-dev/Ultraviolet/releases/tag/v1.0.5)  and extract the dist folder to a folder named ```uv``` in your static webroot
-#### - Download ultraviolet-static from [here](https://github.com/titaniumnetwork-dev/Ultraviolet-Static) extract the public dir to a folder named ```proxy``` in your static webroot
+#### - Download ultraviolet-static from [here](https://github.com/titaniumnetwork-dev/Ultraviolet-Static) extract the dist dir to a folder named ```proxy``` in your static webroot
 #### - Overwrite ```/var/www/html/uv/uv.config.js``` with ```/var/www/html/proxy/uv/uv.config.js```
 #### - Modify ```/var/wwww/html/proxy/index.html```, make sure the links are correct
 #### - Modify ```/var/www/html/uv/uv.config.js``` Make sure:
